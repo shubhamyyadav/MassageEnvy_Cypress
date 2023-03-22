@@ -1,0 +1,12 @@
+name: Cypress Cucumber Tests
+on: [push]
+jobs:
+  MassageEnvy_Cypress_Tests:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout GitCode
+        uses: actions/checkout@v2
+      - name: Run Cypress Test
+        uses: cypress-io/github-action@v5
+        with:
+          command: npx cypress run --browser chrome --record --key 73317efb-d997-4b97-bce9-f59fa3c4231c
