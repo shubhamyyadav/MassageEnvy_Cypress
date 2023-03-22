@@ -4,8 +4,8 @@ module.exports = defineConfig({
   projectId: '36eeu3',
   pageLoadTimeout: 80000,
   defaultCommandTimeout: 80000,
-  viewportWidth: 375,
-  viewportHeight: 667,
+  //viewportWidth: 375,
+  //viewportHeight: 667,
   projectId: '36eeu3',
   reporter: 'cypress-mochawesome-reporter',
   reporterOptions: {
